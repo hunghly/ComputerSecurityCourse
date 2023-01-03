@@ -13,7 +13,7 @@ void main()
    * Before running this program, you should create
    * the file /etc/zzz first. */
   fd = open("/etc/zzz", O_RDWR | O_APPEND);        
-  if (fd == -1) {
+  if (fd == -1) 
      printf("Cannot open /etc/zzz\n");
      exit(0);
   }
